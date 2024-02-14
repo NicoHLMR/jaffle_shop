@@ -1,0 +1,11 @@
+jaffle_shop:
+  target: fabric-dev
+  outputs:
+    fabric-dev:
+      type: fabric
+      driver: ODBC Driver 18 for SQL Server
+      server: uh6zo4vdgv5ullwchhxslb42dy-usifubu55kkele6dmu3cyvvajq.datawarehouse.pbidedicated.windows.net
+      database: GGM_DWH
+      authentication: CLI
+      schema: dbo
+      threads: 4
