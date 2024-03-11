@@ -7,4 +7,5 @@ jaffle_shop:
       server: uh6zo4vdgv5ullwchhxslb42dy-usifubu55kkele6dmu3cyvvajq.datawarehouse.pbidedicated.windows.net,1433
       database: DBT_DEMO
       schema: dbo
+      authentication: ActiveDirectoryInteractive
       threads: 4
