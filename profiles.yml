@@ -5,6 +5,7 @@ jaffle_shop:
       type: fabric
       driver: ODBC Driver 18 for SQL Server
       server: uh6zo4vdgv5ullwchhxslb42dy-usifubu55kkele6dmu3cyvvajq.datawarehouse.pbidedicated.windows.net
+      port: 1433
       database: DBT_DEMO
       schema: dbo
       threads: 4
